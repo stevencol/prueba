@@ -17,8 +17,7 @@ public class Holamundo extends HttpServlet {
 
         String teString = "hola";
         out.println("<a style='color:orange;'>" + teString + "</a>");
-        Generador.generar();
-
+     
     }
 
 }
